@@ -1,3 +1,6 @@
+`timescale 1ns/1ps
+
+// Moore machine to detect the non overlapping sequence '1011'
 module moore_non_ol (
     input clk,
     input rst,
